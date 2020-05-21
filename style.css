@@ -62,7 +62,6 @@ nav ul {
     text-align: right;
     margin: 0;
     padding-right: 40px;
-    transition: 1s;
 }
 
 nav ul li,
@@ -327,38 +326,26 @@ hr {
     }
 
     .logo {
-        position: fixed;
+        position: static;
         top: 0;
         margin-top: 16px;
         margin-left: 20px;
+        font-size: 5rem;
     }
 
-    .menu {
-        background-color: white;
-    }
-
-    nav ul {
-        max-height: 0px;
-    }
-
-    .showing {
-        max-height: 40em;
+    nav {
+        position: static;
     }
 
     nav ul li,
     nav ul li a {
-        box-sizing: border-box;
-        width: 90%;
-        padding: 24px;
-        text-align: center;
-        font-size: 1.8rem;
+        margin-left: 20px;
+        padding: 20px 0px;
     }
 
-    .menu-icon {
-        position: fixed;
-        display: inline-block;
-        height: 2px;
-        padding: 35px 10px;
+    nav ul {
+        padding-right: 20px;
+
     }
 
     .intro {
@@ -473,6 +460,14 @@ hr {
 }
 
 @media (min-width: 731px) and (max-width: 1247px) {
+    .logo {
+        position: static;
+    }
+
+    nav {
+        position: static;
+    }
+
     .intro {
         padding: 40px 12px;
         font-size: 1.3rem;
