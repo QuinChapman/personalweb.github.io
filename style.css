@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: "Thasadith", sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    height: 18vh;
+}
+
+.logo {
+    font-family: "Dawning of a New Day", cursive;
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 0 35px;
+    font-size: 5.6rem;
+    letter-spacing: 2px;
+}
+
+.logo:hover,
+.logo:hover a {
+    animation: tada;
+    animation-duration: 1s;
+    color: black;
+}
+
+.verticalLine {
+    height: 100%;
+    float: right;
+    border: 1.5px solid black;
+    border-radius: 2px;
+    height: 65px;
+    margin: 20px 16px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav ul li,
+nav ul li a {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    text-align: right;
+    padding: 15px 24px;
+    cursor: pointer;
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    color: black;
+}
+
+a:hover {
+    color: #ff704d;
+}
+
+.intro {
+    padding: 40px 105px;
+    font-size: 1.3rem;
+    height: 77vh;
+}
+
+.bolded {
+    color: #515151;
+    font-weight: bold;
+}
+
+#arrow img {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.headings {
+    font-size: 1.7rem;
+    color: #4F4F4F;
+    font-weight: bold;
+    margin: 0 0 40px 100px;
+}
+
+.column {
+    float: left;
+    width: 320px;
+    height: 255px;
+    margin: 4px;
+    margin-left: 65px;
+}
+
+.column p {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.column img {
+    transition: all .2s ease-in-out;
+}
+
+.column img:hover {
+    border-radius: 15px;
+    transform: scale(1.025);
+}
+
+.column.one img:hover {
+    box-shadow: 0 0 15px 10px #F2F9FC;
+    -webkit-box-shadow: 0 0 15px 10px #F2F9FC;
+    -moz-box-shadow: 0 0 15px 10px #F2F9FC;
+}
+
+.column.two img:hover {
+    box-shadow: 0 0 15px 10px #fbfbea;
+    -webkit-box-shadow: 0 0 15px 10px #fbfbea;
+    -moz-box-shadow: 0 0 15px 10px #fbfbea;
+}
+
+.project-title {
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.projects {
+    height: 70vh;
+}
+
+.row {
+    margin-left: 35px;
+}
+
+footer {
+    margin-top: auto;
+    padding-bottom: 15px;
+}
+
+hr {
+    width: 1165px;
+    margin: auto;
+    border: 1px solid #f2f2f2;
+}
+
+.contact {
+    float: left;
+    margin-left: 56px;
+}
+
+.links a:hover {
+    color: #ff5c33;
+}
+
+.footer-column {
+    float: right;
+    width: 10%;
+    padding: 10px;
+}
+
+.footer-row:after,
+.about-container:after,
+.project-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#about {
+    color: #ff5c33;
+}
+
+.about-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-right: 1px solid black;
+}
+
+.about-column:first-child {
+    height: 100%;
+    padding: 30px;
+}
+
+.skills-container {
+    margin-left: 60px;
+}
+
+
+.skills-list ul li {
+    list-style-type: none;
+}
+
+.about-container {
+    margin-left: 40px;
+}
+
+.skills-list {
+    margin-left: 50px;
+}
+
+
+.skills-container div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 225px;
+}
+
+.about-info {
+    font-size: 1.2rem;
+}
+
+.skills-headings {
+    font-weight: bold;
+    color: #5A5A5A;
+}
+
+.gradient-background {
+    background-image: linear-gradient(to top, white 60%, #F5F9FD 40%);
+    height: 100%;
+}
+
+.two {
+    background-image: linear-gradient(to top, white 60%, #FFFDFB 40%);
+    height: 100%;
+}
+
+.project-container {
+    text-align: center;
+}
+
+#text-animate:hover i {
+    animation: headShake;
+    animation-duration: 2s;
+}
+
+.frame {
+    height: 50vh;
+    margin-bottom: 9px;
+}
+
+.project-date {
+    margin-top: -35px;
+}
+
+.project-name {
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.project-container img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.project-container i {
+    margin-left: 4px;
+}
+
+.project-column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    padding-left: 100px;
+    margin-top: 20px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.project-column hr {
+    border: 0.5px solid black;
+    margin-left: 0px;
+    width: 70px;
+}
+
+.project-row {
+    margin-left: 10px;
+}
+
+.project-column h4 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px), (max-width: 728px) {
+    .html {
+        font-size: 0.65rem;
+    }
+
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+        margin-left: 20px;
+    }
+
+    .menu {
+        background-color: white;
+    }
+
+    nav ul {
+        max-height: 0px;
+    }
+
+    .showing {
+        max-height: 40em;
+    }
+
+    nav ul li,
+    nav ul li a {
+        box-sizing: border-box;
+        width: 90%;
+        padding: 24px;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .menu-icon {
+        position: fixed;
+        display: inline-block;
+        height: 2px;
+        padding: 35px 10px;
+    }
+
+    .intro {
+        padding: 0 15px;
+        height: 100%;
+    }
+
+    .headings {
+        margin: 40px 0 5px 5px;
+    }
+
+    #arrow img {
+        width: 20px;
+        height: 20px;
+        margin-top: 40px;
+    }
+
+    .column {
+        float: none;
+        margin-top: 20px;
+        margin-bottom: 80px;
+        margin-left: 0;
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .column.two {
+        width: 100%;
+        height: 255px;
+    }
+
+    .column.one img:hover {
+        box-shadow: 0 0 2px 2px #F2F9FC;
+        -webkit-box-shadow: 0 0 2px 2px #F2F9FC;
+        -moz-box-shadow: 0 0 2px 2px #F2F9FC;
+    }
+
+    .column.two img:hover {
+        box-shadow: 0 0 2px 2px #fbfbea;
+        -webkit-box-shadow: 0 0 2px 2px #fbfbea;
+        -moz-box-shadow: 0 0 2px 2px #fbfbea;
+    }
+
+    .column p {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .row img {
+        zoom: 2;
+        display: block;
+        margin: auto;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .row {
+        margin-left: 0;
+    }
+
+    .projects {
+        height: auto;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .footer-column {
+        width: 20%;
+    }
+
+    .contact {
+        float: left;
+        margin-left: 10px;
+    }
+
+    .about-column {
+        width: 100%;
+        height: 100%;
+        border-right: 0;
+    }
+
+    .about-container {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .skills-container {
+        margin-left: 0;
+    }
+
+    .project-column {
+        padding-left: 10px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .project-container {
+        text-align: center;
+    }
+
+    .frame {
+        height: 25vh;
+    }
+
+    .project-name {
+        margin-top: 2px;
+    }
+}
+
+@media (min-width: 731px) and (max-width: 1247px) {
+    .intro {
+        padding: 40px 12px;
+        font-size: 1.3rem;
+        height: 100%;
+    }
+
+    .column {
+        float: left;
+        margin-bottom: 50px;
+        margin-left: 12px;
+        width: 30%;
+        font-size: 0.8rem;
+    }
+
+    .column p {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .headings {
+        font-size: 1.9rem;
+        color: #4F4F4F;
+        font-weight: bold;
+        padding: 15px 10px;
+        margin: 0 0 15px 10px;
+    }
+
+    .row {
+        margin-left: 12px;
+    }
+
+    .row img {
+        display: block;
+        margin: auto;
+        height: auto;
+        max-height: 100%;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .project-title {
+        font-size: 1rem;
+    }
+}
