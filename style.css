@@ -345,7 +345,6 @@ hr {
 
     nav ul {
         padding-right: 20px;
-
     }
 
     .intro {
@@ -510,5 +509,17 @@ hr {
 
     .project-title {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 347px) {
+    nav ul {
+        padding-right: 0px;
+    }
+
+    nav ul li,
+    nav ul li a {
+        margin-left: 5px;
+        padding: 0px 0px;
     }
 }
