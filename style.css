@@ -72,15 +72,6 @@ nav ul li a {
     color: black;
 }
 
-.menu-icon {
-    line-height: 60px;
-    width: 100%;
-    text-align: right;
-    padding: 15px 24px;
-    cursor: pointer;
-    display: none;
-}
-
 a {
     text-decoration: none;
     outline: none !important;
@@ -355,10 +346,12 @@ hr {
     .intro {
         padding: 0 15px;
         height: 100%;
+        font-size: 1rem;
     }
 
     .headings {
-        margin: 40px 0 5px 5px;
+        margin: 40px 0 5px 14px;
+        font-size: 1.5rem;
     }
 
     #arrow img {
