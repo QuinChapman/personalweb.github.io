@@ -344,7 +344,7 @@ hr {
     }
 
     .gradient-background {
-        background-image: linear-gradient(to top, white 70%, #F5F9FD 30%);
+        background-image: linear-gradient(to top, white 65%, #F5F9FD 35%);
     }
 
     .two {
