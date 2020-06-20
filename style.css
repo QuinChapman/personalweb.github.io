@@ -343,6 +343,14 @@ hr {
         padding-right: 20px;
     }
 
+    .gradient-background {
+        background-image: linear-gradient(to top, white 72%, #F5F9FD 28%);
+    }
+
+    .two {
+        background-image: linear-gradient(to top, white 69%, #FFFDFB 31%);
+    }
+
     .intro {
         padding: 0 15px;
         height: 100%;
