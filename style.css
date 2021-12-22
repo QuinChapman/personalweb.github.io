@@ -206,6 +206,7 @@ hr {
     margin-left: 0;
     margin-bottom: 30px;
 }
+
 .skills-container {
     margin-left: 60px;
 }
@@ -440,7 +441,11 @@ hr {
     }
 
     .skills-container {
-        margin-left: 20px;
+        margin-left: 10px;
+    }
+
+    .about-column {
+        width: 100%;
     }
 
     .project-column {
