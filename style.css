@@ -127,7 +127,7 @@ a:hover {
 }
 
 .column.two img:hover {
-    box-shadow: 0 0 15px 10px #fbfbeaf1;
+    box-shadow: 0 0 15px 10px #fbfbea;
 }
 
 .column.three img:hover {
@@ -353,6 +353,10 @@ hr {
         background-image: linear-gradient(to top, white 64%, #FFFDFB 36%);
     }
 
+    .three {
+        background-image: linear-gradient(to top, white 67%, #f5fdf6 33%);
+    }
+
     .intro {
         padding: 0 15px;
         height: 100%;
@@ -378,8 +382,13 @@ hr {
         height: 255px;
     }
 
+    .column.three {
+        width: 100%;
+        height: 255px;
+    }
+
     .column.one img:hover {
-        box-shadow: 0 0 2px 2px red;
+        box-shadow: 0 0 2px 2px #ebfaecb3;
     }
 
     .column.two img:hover {
