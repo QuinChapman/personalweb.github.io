@@ -239,17 +239,17 @@ hr {
 }
 
 .gradient-background {
-    background-image: linear-gradient(to top, white 60%, #F5F9FD 40%);
+    background-image: linear-gradient(to top, white 50%, #F5F9FD);
     height: 100%;
 }
 
 .gradient-background.two {
-    background-image: linear-gradient(to top, white 60%, #FFFDFB 40%);
+    background-image: linear-gradient(to top, white 50%, #f8f8ddab);
     height: 100%;
 }
 
 .gradient-background.three {
-    background-image: linear-gradient(to top, white 60%, #f5fdf6 40%);
+    background-image: linear-gradient(to top, white 50%, #f5fdf6);
     height: 100%;
 }
 
@@ -347,15 +347,15 @@ hr {
     }
 
     .gradient-background {
-        background-image: linear-gradient(to top, white 67%, #F5F9FD 33%);
+        background-image: linear-gradient(to top, white 58%, #F5F9FD);
     }
 
     .gradient-background.two {
-        background-image: linear-gradient(to top, white 64%, #FFFDFB 36%);
+        background-image: linear-gradient(to top, white 58%, #FFFDFB);
     }
 
     .gradient-background.three {
-        background-image: linear-gradient(to top, white 67%, #f5fdf6 33%);
+        background-image: linear-gradient(to top, white 58%, #f5fdf6);
     }
 
     .intro {
