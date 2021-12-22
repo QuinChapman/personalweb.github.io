@@ -243,7 +243,7 @@ hr {
     height: 100%;
 }
 
-.gradient-backgroundg.two {
+.gradient-background.two {
     background-image: linear-gradient(to top, white 60%, #FFFDFB 40%);
     height: 100%;
 }
