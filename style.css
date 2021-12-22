@@ -242,12 +242,12 @@ hr {
     height: 100%;
 }
 
-.two {
+.gradient-backgroundg.two {
     background-image: linear-gradient(to top, white 60%, #FFFDFB 40%);
     height: 100%;
 }
 
-.three {
+.gradient-background.three {
     background-image: linear-gradient(to top, white 60%, #f5fdf6 40%);
     height: 100%;
 }
@@ -349,11 +349,11 @@ hr {
         background-image: linear-gradient(to top, white 67%, #F5F9FD 33%);
     }
 
-    .two {
+    .gradient-background.two {
         background-image: linear-gradient(to top, white 64%, #FFFDFB 36%);
     }
 
-    .three {
+    .gradient-background.three {
         background-image: linear-gradient(to top, white 67%, #f5fdf6 33%);
     }
 
