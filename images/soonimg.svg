@@ -1,9 +1,0 @@
-<svg width="350" height="295" viewBox="0 0 350 295" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="350" height="295" rx="15" fill="#EBFAEC"/>
-<g opacity="0.5">
-<circle cx="168.5" cy="145.5" r="57" stroke="black"/>
-<circle cx="171" cy="151" r="5" fill="black"/>
-<line x1="171" y1="146.012" x2="172" y2="108" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="131" y1="151" x2="167" y2="152" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</svg>
