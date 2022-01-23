@@ -127,10 +127,6 @@ a:hover {
 }
 
 .column.two img:hover {
-    box-shadow: 0 0 15px 10px #fbfbea;
-}
-
-.column.three img:hover {
     box-shadow: 0 0 15px 10px #F2F9FC;
 }
 
@@ -383,20 +379,11 @@ hr {
         height: 255px;
     }
 
-    .column.three {
-        width: 100%;
-        height: 255px;
-    }
-
     .column.one img:hover {
         box-shadow: 0 0 2px 2px #ebfaecb3;
     }
 
     .column.two img:hover {
-        box-shadow: 0 0 2px 2px #fbfbea;
-    }
-
-    .column.three img:hover {
         box-shadow: 0 0 2px 2px #F2F9FC;
     }
 
