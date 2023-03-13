@@ -127,11 +127,15 @@ a:hover {
 }
 
 .column.one img:hover {
-    box-shadow: 0 0 15px 10px #ebfaecb3;
+    box-shadow: 0 0 10px 10px #f8fcfd;
 }
 
 .column.two img:hover {
-    box-shadow: 0 0 15px 10px #F2F9FC;
+    box-shadow: 0 0 10px 10px #f9f9f2;
+}
+
+.column.three img:hover {
+    box-shadow: 0 0 10px 10px #f2f9f2;
 }
 
 .project-title {
@@ -194,17 +198,18 @@ hr {
     height: 100%;
     padding: 10px;
     margin-top: 10px;
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
 .about-column:first-child {
     height: 100%;
-    padding: 30px;
+    padding: 80px;
 }
 
 .about-container {
     margin-left: 0;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .skills-container {
@@ -384,11 +389,15 @@ hr {
     }
 
     .column.one img:hover {
-        box-shadow: 0 0 2px 2px #ebfaecb3;
+        box-shadow: 0 0 2px 2px #f8fcfd;
     }
 
     .column.two img:hover {
-        box-shadow: 0 0 2px 2px #F2F9FC;
+        box-shadow: 0 0 2px 2px #f9f9f2;
+    }
+
+    .column.three img:hover {
+        box-shadow: 0 0 10px 10px #f2f9f2;
     }
 
     .column p {
