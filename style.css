@@ -127,11 +127,11 @@ a:hover {
 }
 
 .column.one img:hover {
-    box-shadow: 0 0 10px 10px #f8fcfd;
+    box-shadow: 0 0 10px 10px #f9f9f2;
 }
 
 .column.two img:hover {
-    box-shadow: 0 0 10px 10px #f9f9f2;
+    box-shadow: 0 0 10px 10px #f8fcfd;
 }
 
 .column.three img:hover {
@@ -389,11 +389,11 @@ hr {
     }
 
     .column.one img:hover {
-        box-shadow: 0 0 2px 2px #f8fcfd;
+        box-shadow: 0 0 2px 2px #f9f9f2;
     }
 
     .column.two img:hover {
-        box-shadow: 0 0 2px 2px #f9f9f2;
+        box-shadow: 0 0 2px 2px #f8fcfd;
     }
 
     .column.three img:hover {
