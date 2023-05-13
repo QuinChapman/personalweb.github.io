@@ -14,7 +14,7 @@ html, body {
 
 body {
     display: flex;
-    min-height: 80vh;
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -107,7 +107,7 @@ a:hover {
 .column {
     float: left;
     width: 320px;
-    height: 255px;
+    height: 200px;
     margin: 4px;
     margin-left: 65px;
 }
