@@ -100,7 +100,7 @@ a:hover {
     margin: 0 0 40px 100px;
 }
 
-.listedDetails {
+.listed-details {
     margin-left: 30px;
 }
 
@@ -136,6 +136,11 @@ a:hover {
 
 .column.three img:hover {
     box-shadow: 0 0 10px 10px #f2f9f2;
+}
+
+.persona-cell img {
+    max-width: 60%;
+    height: auto;
 }
 
 .project-title {
@@ -258,6 +263,11 @@ hr {
     height: 100%;
 }
 
+.gradient-background.ux {
+    background-image: linear-gradient(to top, white 50%, #F4F2F7);
+    height: 100%;
+}
+
 .project-container {
     text-align: center;
 }
@@ -293,10 +303,55 @@ hr {
     margin-left: 4px;
 }
 
+.div-table {
+	display: table;
+	width: 80%;
+    padding: 5px;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-table-row {
+	display: table-row;
+    padding: 5px;
+}
+
+.div-table-cell {
+	display: table-cell;
+    padding: 10px;
+    width: 150px;
+}
+
+.div-table-cell p {
+    text-align: start;
+    margin-left: 14%;
+}
+
+.div-table-bullets {
+    margin-left: 22%;
+    text-align: start;
+}
+
+.div-table-body {
+	display: table-row-group;
+}
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+div.scroll-container img {
+    padding: 10px;
+    max-width: 15%;
+    height: auto;
+}
+
 .project-column {
     float: left;
     width: 50%;
-    padding: 15px;
+    padding: 5px;
     padding-left: 100px;
     margin-top: 20px;
     height: 100%;
@@ -308,7 +363,13 @@ hr {
 .project-column hr {
     border: 0.5px solid black;
     margin-left: 0px;
-    width: 70px;
+    width: 80px;
+}
+
+.shorter-hr { 
+    border: 0.5px solid black;
+    margin-left: 0px;
+    width: 20px;
 }
 
 .project-row {
@@ -362,6 +423,10 @@ hr {
 
     .gradient-background.three {
         background-image: linear-gradient(to top, white 58%, #f5fdf6);
+    }
+
+    .gradient-background.ux {
+        background-image: linear-gradient(to top, white 58%, #F4F2F7);
     }
 
     .intro {
@@ -467,6 +532,12 @@ hr {
     .project-name {
         margin-top: 2px;
     }
+
+    div.scroll-container img {
+        padding: 10px;
+        max-width: 50%;
+        height: auto;
+    }
 }
 
 @media (min-width: 731px) and (max-width: 1247px) {
@@ -529,6 +600,12 @@ hr {
 
     .project-container {
         margin-top: 75px;
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+        max-width: 60%;
+        height: auto;
     }
 }
 
