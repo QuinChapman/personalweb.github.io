@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 * {
     box-sizing: border-box;
@@ -6,8 +7,10 @@
     margin: 0;
 }
 
-html, body {
-    font-family: "Thasadith", sans-serif;
+html,
+body {
+    font-family: "Quicksand";
+    font-weight: 100;
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -23,12 +26,11 @@ header {
 }
 
 .logo {
-    font-family: "Dawning of a New Day", cursive;
-    line-height: 60px;
-    position: fixed;
+    font-family: "Abril Fatface";
+    line-height: 80px;
     float: left;
-    margin: 0 35px;
-    font-size: 5.6rem;
+    margin: 0 40px;
+    font-size: 3rem;
     letter-spacing: 2px;
 }
 
@@ -39,17 +41,7 @@ header {
     color: black;
 }
 
-.verticalLine {
-    height: 100%;
-    float: right;
-    border: 1.5px solid black;
-    border-radius: 2px;
-    height: 65px;
-    margin: 20px 16px;
-}
-
 nav {
-    position: fixed;
     width: 100%;
     line-height: 60px;
 }
@@ -136,11 +128,6 @@ a:hover {
 
 .column.three img:hover {
     box-shadow: 0 0 10px 10px #f2f9f2;
-}
-
-.persona-cell img {
-    max-width: 60%;
-    height: auto;
 }
 
 .project-title {
@@ -304,48 +291,54 @@ hr {
 }
 
 .div-table {
-	display: table;
-	width: 80%;
-    padding: 5px;  
+    display: table;
+    width: 80%;
+    padding: 5px;
     margin-left: auto;
     margin-right: auto;
+    background-color: darkcyan;
 }
 
 .div-table-row {
-	display: table-row;
+    display: table-row;
     padding: 5px;
 }
 
 .div-table-cell {
-	display: table-cell;
-    padding: 10px;
-    width: 150px;
+    display: table-cell;
+    height: 104px;
+    width: 140px;
 }
 
-.div-table-cell p {
-    text-align: start;
-    margin-left: 14%;
-}
-
-.div-table-bullets {
-    margin-left: 22%;
-    text-align: start;
+div-table-cell img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
 }
 
 .div-table-body {
-	display: table-row-group;
+    display: table-row-group;
 }
 
 div.scroll-container {
+    display: flex;
+    flex-wrap: wrap;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
 }
 
 div.scroll-container img {
-    padding: 10px;
+    padding: 20px;
     max-width: 15%;
     height: auto;
+}
+
+div.scroll-container:before {
+    content: "";
+    flex-basis: 100%;
+    order: 1;
 }
 
 .project-column {
@@ -360,13 +353,61 @@ div.scroll-container img {
     text-justify: inter-word;
 }
 
+.project-column.ux {
+    text-align: right;
+    margin-top: 0px;
+}
+
+.project-column.ux img {
+    width: 50%;
+    height: 50%;
+}
+
+.project-column.findings {
+    width: 33.3%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 100px;
+    text-align: start;
+}
+
+.project-column.findings-card img {
+    width: 40%;
+    height: 40%;
+    text-align: start;
+}
+
+.project-column.findings-card {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.project-column.user-tasks {
+    padding-top: 80px;
+}
+
 .project-column hr {
     border: 0.5px solid black;
     margin-left: 0px;
     width: 80px;
 }
 
-.shorter-hr { 
+.project-column h4 {
+    margin-bottom: 10px;
+}
+
+.project-column.persona:nth-child(1) {
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.project-column.persona:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 100px;
+}
+
+.shorter-hr {
     border: 0.5px solid black;
     margin-left: 0px;
     width: 20px;
@@ -376,11 +417,19 @@ div.scroll-container img {
     margin-left: 10px;
 }
 
-.project-column h4 {
-    margin-bottom: 10px;
+.table_images {
+    width: 100%;
+    height: 100%;
 }
 
-@media (max-width: 600px), (max-width: 728px) {
+.testing-details {
+    padding-left: 20px;
+    text-align: start;
+}
+
+
+@media (max-width: 600px),
+(max-width: 728px) {
     .html {
         font-size: 0.65rem;
     }
@@ -388,9 +437,9 @@ div.scroll-container img {
     .logo {
         position: static;
         top: 0;
-        margin-top: 16px;
-        margin-left: 20px;
-        font-size: 4rem;
+        margin-top: 10px;
+        margin-left: 18px;
+        font-size: 2.3rem;
     }
 
     .verticalLine {
@@ -516,8 +565,51 @@ div.scroll-container img {
 
     .project-column {
         padding-left: 10px;
+        padding-right: 20px;
         margin-bottom: 0;
         width: 100%;
+    }
+
+    .project-column.ux {
+        float: none;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        padding-left: 20%;
+    }
+
+    .project-column.findings {
+        margin-bottom: 5px;
+        padding-right: 0px;
+    }
+
+    .project-column.user-tasks {
+        padding-top: 0px;
+    }
+
+    .project-column.findings-card {
+        margin-left: 110px;
+    }
+
+    .project-column.findings-card img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .project-column.ux img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .project-column.persona img {
+        width: 95%;
+        height: 95%;
+    }
+
+    .project-row .project-column.persona:nth-child(1),
+    .project-column.persona:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 0px;
     }
 
     .project-container {
@@ -534,8 +626,9 @@ div.scroll-container img {
     }
 
     div.scroll-container img {
-        padding: 10px;
-        max-width: 50%;
+        margin-left: 20px;
+        padding: 0px;
+        max-width: 30%;
         height: auto;
     }
 }
@@ -543,7 +636,7 @@ div.scroll-container img {
 @media (min-width: 731px) and (max-width: 1247px) {
     .logo {
         position: static;
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
 
     .verticalLine {
@@ -602,10 +695,49 @@ div.scroll-container img {
         margin-top: 75px;
     }
 
+    .project-column {
+        padding-left: 10px;
+        padding-right: 20px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .project-column.ux {
+        float: none;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .project-column.ux img {
+        margin-left: 200px;
+        width: 50%;
+        height: 80%;
+    }
+
+    .project-column.findings-card {
+        margin-left: 200px;
+    }
+
+    .project-row .project-column.persona:nth-child(1),
+    .project-column.persona:nth-child(2) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .project-column.user-tasks {
+        padding-top: 0px;
+    }
+
     div.scroll-container img {
         padding: 10px;
-        max-width: 60%;
+        max-width: 30%;
         height: auto;
+    }
+
+    .table_images {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -621,7 +753,7 @@ div.scroll-container img {
     }
 
     .logo {
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
 
     .verticalLine {
@@ -633,7 +765,8 @@ div.scroll-container img {
     }
 }
 
-@media (max-width: 350px), (max-height: 320px) {
+@media (max-width: 350px),
+(max-height: 320px) {
     .project-container {
         margin-top: 60px;
     }
