@@ -755,10 +755,6 @@ div.scroll-container:before {
         margin-top: 60px;
     }
 
-    .logo {
-        background-color: orange;
-    }
-
     nav ul {
         text-align: left;
         padding-right: 0px;
@@ -766,7 +762,6 @@ div.scroll-container:before {
 
     nav ul li,
     nav ul li a {
-        background-color: red;
         margin-left: 0px;
         padding: 0 4px;
     }
