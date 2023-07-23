@@ -375,6 +375,14 @@ div.scroll-container:before {
     padding-top: 80px;
 }
 
+.project-column.reflection {
+    width: 70%;
+}
+
+.project-column.reflection hr {
+    width: 60px;
+}
+
 .project-column hr {
     border: 0.5px solid black;
     margin-left: 0px;
@@ -590,6 +598,10 @@ div.scroll-container:before {
         height: 95%;
     }
 
+    .project-column.reflection {
+        width: 100%;
+    }
+
     .project-row .project-column.persona:nth-child(1),
     .project-column.persona:nth-child(2) {
         padding-left: 15px;
@@ -719,6 +731,10 @@ div.scroll-container:before {
         height: auto;
     }
 
+    .project-column.reflection {
+        width: 100%;
+    }
+
     .table_images {
         width: 100%;
         height: 100%;
@@ -747,6 +763,10 @@ div.scroll-container:before {
     .project-container {
         margin-top: 10px;
     }
+
+    .project-column.reflection {
+        width: 100%;
+    }
 }
 
 @media (max-width: 350px),
@@ -764,5 +784,9 @@ div.scroll-container:before {
     nav ul li a {
         margin-left: 0px;
         padding: 0 4px;
+    }
+
+    .project-column.reflection {
+        width: 100%;
     }
 }
