@@ -440,7 +440,7 @@ div.scroll-container:before {
 
     nav ul li,
     nav ul li a {
-        margin-left: 20px;
+        margin-left: 10px;
         padding: 0;
         margin-top: 15px;
         font-size: 1rem;
@@ -732,8 +732,8 @@ div.scroll-container:before {
 
     nav ul li,
     nav ul li a {
-        margin-left: 5px;
-        padding: 16px 5px;
+        margin-left: 0px;
+        padding: 10px 5px;
     }
 
     .logo {
@@ -755,9 +755,19 @@ div.scroll-container:before {
         margin-top: 60px;
     }
 
+    .logo {
+        background-color: orange;
+    }
+
+    nav ul {
+        text-align: left;
+        padding-right: 0px;
+    }
+
     nav ul li,
     nav ul li a {
-        margin-left: 5px;
-        padding: 0 5px;
+        background-color: red;
+        margin-left: 0px;
+        padding: 0 4px;
     }
 }
