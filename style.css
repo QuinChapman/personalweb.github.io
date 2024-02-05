@@ -503,7 +503,7 @@ div.scroll-container:before {
     }
 
     .column.four {
-        margin-top: 80px;
+        margin-top: 110px;
     }
 
     .column.two {
@@ -511,16 +511,21 @@ div.scroll-container:before {
         height: 255px;
     }
 
+
     .column.one img:hover {
-        box-shadow: 0 0 2px 2px #f9f9f2;
+        box-shadow: 0 0 2px 2px #fcfcee;
     }
-
+    
     .column.two img:hover {
-        box-shadow: 0 0 2px 2px #f8fcfd;
+        box-shadow: 0 0 2px 2px #f5fafd;
     }
-
+    
     .column.three img:hover {
-        box-shadow: 0 0 10px 10px #f2f9f2;
+        box-shadow: 0 0 2px 2px #f7fdf7;
+    }
+    
+    .column.four img:hover {
+        box-shadow: 0 0 2px 2px #f8f7fa;
     }
 
     .column p {
